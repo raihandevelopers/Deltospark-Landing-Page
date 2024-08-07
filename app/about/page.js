@@ -7,7 +7,7 @@ import serviceRightAngle from "@/public/serviceRightAngle.svg";
 import profile from "@/public/mypicfinal.jpg";
 import profile2 from "@/public/arshad.jpg";
 import profile3 from "@/public/Om.jpg";
-import profile4 from "@/public/Atishmita.png";
+import profile4 from "@/public/Atishmita.jpg";
 
 import awardsicons from "@/public/awardsIcons.svg";
 import { useState } from "react";
