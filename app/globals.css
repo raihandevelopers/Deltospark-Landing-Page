@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .shadow-neumorphism {
+        box-shadow: 8px 8px 16px #b3b3b3,
+            -8px -8px 16px #ffffff;
+    }
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+
+.my-element {
+    background-image: url('../public/bg.svg');
+
+}
+
+.my-cardBG {
+    background-image: url('../public/cardBg.svg');
+
+}
+
+.my-workCardBg {
+    background-image: url('../public/workCardBg.svg');
+}
+
+.my-workCardBgImg {
+    background-image: url('../public/cardBgImg.png');
+}
+
+.my-clientCardBG {
+    background-image: url('../public/ClientCardBG.svg');
+}
+
+.my-BG {
+    background-image: url('../public/sun.svg');
+}
+
+.team-BG {
+    background-image: url('../public/teamCardBG.svg');
+}
+
+.Dp-bg {
+    background-image: url("../public/dpFrame.svg");
+}
+
+.achievements-bg {
+    background-image: url("../public/achievementsBG.svg");
+}
+
+.contactus-bg {
+    background-image: url("../public/contactus.svg");
+}
+
+.contactUS-bg {
+    background-image: url("../public/contactusBG.svg");
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/* Add a smooth scrolling animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-350px * 3));
+        /* Adjust based on the number of divs and width */
+    }
+}
+
+.animate-scroll {
+    animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-350px * 3));
+        /* Adjust based on the number of divs and width */
+    }
+}

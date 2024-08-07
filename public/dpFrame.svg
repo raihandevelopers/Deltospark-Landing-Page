@@ -1,0 +1,18 @@
+<svg width="97" height="96" viewBox="0 0 109 108" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="1" y="0.5" width="107" height="107" rx="53.5" stroke="url(#paint0_linear_26_1699)"/>
+<rect x="11" y="10.5" width="87" height="87" rx="43.5" stroke="url(#paint1_linear_26_1699)"/>
+<rect x="24.5" y="24" width="60" height="60" rx="30" fill="url(#pattern0_26_1699)"/>
+<defs>
+<pattern id="pattern0_26_1699" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_26_1699" transform="translate(-0.250708) scale(0.00141643)"/>
+</pattern>
+<linearGradient id="paint0_linear_26_1699" x1="54.5" y1="0" x2="54.5" y2="108" gradientUnits="userSpaceOnUse">
+<stop stop-color="#333333"/>
+<stop offset="1" stop-color="#333333" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_26_1699" x1="54.5" y1="10" x2="54.5" y2="98" gradientUnits="userSpaceOnUse">
+<stop stop-color="#333333"/>
+<stop offset="1" stop-color="#333333" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
