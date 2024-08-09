@@ -10,8 +10,7 @@ import projectStrategic from "@/public/projectStrategic.svg";
 import projectCard from "@/public/projectCard4,5.svg";
 import servicesprotfolio1 from "@/public/servicesprotfolio1.svg";
 import servicesprotfolio2 from "@/public/servicesportfolio2.jpg";
-import avatar1 from "@/public/avatar1.png";
-import avatar2 from "@/public/avatar2.png";
+
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
