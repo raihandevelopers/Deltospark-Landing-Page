@@ -8,7 +8,7 @@ import RotatingBox from "@/components/RotatingBox";
 
 export const metadata = {
 	title: "Deltospark",
-	description: "We are a software development agency that helps startups and businesses build their tech, including websites and apps.\nVisit us at deltosspark.com",
+	description: "We are a software development agency that helps startups and businesses build their tech, including websites and apps.\ndeltospark.com",
 };
 
 export default function RootLayout({ children }) {
