@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
+import Link from "next/link";
 
 const videoSrc = "/tt/tt.mp4"; // Corrected path
 
@@ -15,12 +16,11 @@ const CustomSlider = () => {
     setIsModalOpen(false);
   };
 
-  // Ensure video is playing
   useEffect(() => {
-    if (videoRef.current) {
+    if (isModalOpen && videoRef.current) {
       videoRef.current.play();
     }
-  }, []); // Empty dependency array ensures this runs once on mount
+  }, [isModalOpen]);
 
   return (
     <div className="relative">
@@ -31,6 +31,7 @@ const CustomSlider = () => {
           height="1500"
           className="w-full h-[300px] md:h-[450px] rounded-xl object-contain"
           controls
+          autoPlay
           muted 
           loop
         />
@@ -46,7 +47,7 @@ const CustomSlider = () => {
               width="5000"
               height="5000"
               controls
-              autoPlay
+            
               loop
             />
             <button
@@ -55,6 +56,9 @@ const CustomSlider = () => {
             >
               &times;
             </button>
+            {/* <Link href="https://hovr.site/" className="absolute border px-2 py-1 rounded-lg left-1/2 bottom-[-50px] transform -translate-x-1/2">
+              Visit Project
+            </Link> */}
           </div>
         </div>
       )}
