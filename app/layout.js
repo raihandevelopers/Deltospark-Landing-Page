@@ -9,6 +9,11 @@ import RotatingBox from "@/components/RotatingBox";
 export const metadata = {
 	title: "Deltospark",
 	description: "We are a software development agency that helps startups and businesses build their tech, including websites and apps.\ndeltospark.com",
+	icons:{
+		icon:['/favicon.ico?v=4'],
+		apple:['/apple-touch-icon.png?v=4'],
+		shortcut:['/apple-touch-icon.png']
+	}
 };
 
 export default function RootLayout({ children }) {
