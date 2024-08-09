@@ -30,10 +30,9 @@ const CustomSlider = () => {
           width="1500"
           height="1500"
           className="w-full h-[300px] md:h-[450px] rounded-xl object-contain"
-          controls
-          autoPlay
           muted 
           loop
+          controls
         />
       </div>
 
