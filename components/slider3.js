@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 const videoSrc = "/tt/tt.mp4"; // Corrected path
 
@@ -20,7 +20,7 @@ const CustomSlider = () => {
     if (videoRef.current) {
       videoRef.current.play();
     }
-  }, []);
+  }, []); // Empty dependency array ensures this runs once on mount
 
   return (
     <div className="relative">
