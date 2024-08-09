@@ -31,6 +31,8 @@ import servicesprotfolio2 from "@/public/servicesportfolio2.jpg";
 import servicesprotfolio3 from "@/public/Hov3r Web3 Marketplace/hovrbanner.jpg";
 import servicesprotfolio4 from "@/public/Plenty Blockchain/Plentybanner.jpg";
 import servicesprotfolio5 from "@/public/MLB/mlb1.jpg";
+import { Analytics } from "@vercel/analytics/react"
+import Hotjar from '@hotjar/browser';
 
 export default function Home() {
 	const [isHidden1, setIsHidden1] = useState(true);
@@ -66,6 +68,13 @@ export default function Home() {
 	const toggleVisibility = () => {
 		setIsHidden(!isHidden);
 	};
+
+	const siteId = 5089683;
+const hotjarVersion = 6;
+
+Hotjar.init(siteId, hotjarVersion);
+
+
 
 	const testimonials = [
 		{
@@ -174,6 +183,10 @@ export default function Home() {
 			/>
 			<ToastContainer />
 			<main className=" mx-auto ">
+			<Analytics />
+
+			
+
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="Hero-section flex md:h-[550px] min-h-[400px]">
 						<div className="flex flex-col gap-10 lg:w-1/2   my-element">

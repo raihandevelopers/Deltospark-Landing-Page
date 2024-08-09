@@ -104,9 +104,9 @@ const CustomSlider = () => {
 						>
 							&times;
 						</button>
-						<Link href={"#"} className="absolute border px-2 py-1 rounded-lg left-1/2 bottom-[-50px] transform -translate-x-1/2">
+						{/* <Link href={"#"} className="absolute border px-2 py-1 rounded-lg left-1/2 bottom-[-50px] transform -translate-x-1/2">
 							Visit Project
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 			)}

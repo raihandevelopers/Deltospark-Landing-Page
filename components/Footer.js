@@ -17,7 +17,7 @@ const Footer = () => {
 						</div>
 						<div className="flex gap-4 w-[500px] justify-end  items-center ">
 							<span className="sm:block hidden">Follow Us on Social Media</span>
-							<Link href="/#" className="LInkedIn ">
+							<Link href="https://www.linkedin.com/company/deltospark/" className="LInkedIn ">
 								<svg
 									width="40"
 									height="40"
@@ -93,7 +93,7 @@ const Footer = () => {
 									</defs>
 								</svg>
 							</Link>
-							<Link href={"/#"} className="Instagram">
+							<Link href={"https://www.instagram.com/deltospark/"} className="Instagram">
 								<svg
 									width="40"
 									height="40"
@@ -208,7 +208,7 @@ const Footer = () => {
 									</defs>
 								</svg>
 							</Link>
-							<Link href={"/#"} className="X">
+							<Link href={"https://x.com/deltospark"} className="X">
 								<svg
 									width="40"
 									height="40"

@@ -10,6 +10,8 @@ import "react-toastify/dist/ReactToastify.css";
 import { Bounce } from "react-toastify";
 import ScrollAnimation from "@/components/ScrollAnimation";
 import { scaleUpVariants } from "@/animation/variants";
+import { Analytics } from "@vercel/analytics/react"
+import Hotjar from '@hotjar/browser';
 
 const Contact = () => {
 	const [formData, setFormData] = useState({
@@ -28,6 +30,12 @@ const Contact = () => {
 			[e.target.name]: e.target.value,
 		});
 	};
+
+
+	const siteId = 5089683;
+	const hotjarVersion = 6;
+	
+	Hotjar.init(siteId, hotjarVersion);
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
@@ -83,6 +91,8 @@ const Contact = () => {
 			/>
 			<ToastContainer />
 			<main>
+
+			<Analytics />
 				
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="flex flex-col items-center mt-4 w-full sm:max-w-[1280px] p-4 sm:p-10 mx-auto gap-10 team-BG min-h-[300px] justify-center border border-[#1F1F1F] rounded-xl ">
@@ -420,7 +430,7 @@ const Contact = () => {
 							<ScrollAnimation variants={scaleUpVariants}>
 								<div className="min-h-[250px] py-5 achievements-bg border border-[#1F1F1F] rounded-xl backdrop-filter backdrop-blur-xl bg-opacity-20 flex gap-8 flex-col items-center justify-center ">
 									<div className="flex gap-4 items-center justify-center">
-										<Link href={"#"}>
+										<Link href={"https://www.linkedin.com/company/deltospark/"}>
 											<svg
 												width="45"
 												height="45"
@@ -496,7 +506,7 @@ const Contact = () => {
 												</defs>
 											</svg>
 										</Link>
-										<Link href={"#"}>
+										<Link href={"https://instagram.com/deltospark"}>
 											<svg
 												width="45"
 												height="45"
@@ -611,7 +621,7 @@ const Contact = () => {
 												</defs>
 											</svg>
 										</Link>
-										<Link href={"#"}>
+										<Link href={"https://x.com/deltospark"}>
 											<svg
 												width="45"
 												height="45"

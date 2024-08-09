@@ -14,7 +14,7 @@ import servicesprotfolio2 from "@/public/servicesportfolio2.jpg";
 import servicesprotfolio3 from "@/public/Hov3r Web3 Marketplace/hovrbanner.jpg";
 import servicesprotfolio4 from "@/public/Plenty Blockchain/Plentybanner.jpg";
 import servicesprotfolio5 from "@/public/MLB/mlb1.jpg";
-
+import { Analytics } from "@vercel/analytics/react"
 import sun from "@/public/sun.svg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -108,23 +108,26 @@ const Services = () => {
 			/>
 			<ToastContainer />
 			<main>
+			<Analytics />
+
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="Herro-Section">
-						<div className="lg:h-[500px] min-h-[400px] my-cardBG flex relative">
-							<div className="w-1/3 pt-20 lg:flex hidden">
+						{/* <div className="lg:h-[500px] min-h-[400px] my-cardBG flex relative"> */}
+							{/* <div className="w-1/3 pt-20 lg:flex hidden">
 								<Image src={serviceLeftAngle} width={600} height={700} alt="" />
-							</div>
-							<div className="w-1/3 mt-20 lg:block hidden"> </div>
-							<div className="w-1/3 pt-20 lg:flex justify-end  hidden">
+							</div> */}
+							{/* <div className="w-1/3 mt-20 lg:block hidden"> </div> */}
+							{/* <div className="w-1/3 pt-20 lg:flex justify-end  hidden">
 								<Image
 									src={serviceRightAngle}
 									width={600}
 									height={700}
 									alt=""
 								/>
-							</div>
+							</div> */}
 						</div>
-						<div className="sm:flex absolute top-20 left-0 hidden">
+						{/* <div className="sm:flex absolute top-20 left-0 hidden"> */}
+							{/* <div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
 							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
 							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
 							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
@@ -144,12 +147,10 @@ const Services = () => {
 							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
 							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
 							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
-							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
-							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
-						</div>
-						<div className="sm:flex absolute top-20 right-0 hidden ">
-							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
-							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
+							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div> */}
+						{/* </div> */}
+						{/* <div className="sm:flex absolute top-20 right-0 hidden "> */}
+							{/* <div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
 							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
 							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
 							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
@@ -169,16 +170,17 @@ const Services = () => {
 							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
 							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
 							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div>
-						</div>
-						<div className="absolute top-[280px] lg:top-[350px] lg:w-[47vw] gap-5 flex flex-col  justify-center transform -translate-y-1/2 max-h-[460px] lg:p-4 min-px-5 mx-10 lg:left-[18%]">
+							<div className="backdrop-filter backdrop-blur-3xl w-[30px] h-[520px] bg-opacity-20 hidden lg:block"></div> */}
+					
+						{/* <div className="absolute top-[280px] lg:top-[350px] lg:w-[47vw] gap-5 flex flex-col  justify-center transform -translate-y-1/2 max-h-[460px] lg:p-4 min-px-5 mx-10 lg:left-[18%]">
 							<h1 className="xl:text-4xl text-2xl font-semibold">
 								Our Comprehensive{" "}
 								<span className="text-[#666666]">Digital Solutions</span>
 							</h1>
 							<p className="text-[#c7c5c5] sm:text-sm text-xs">
 							At Deltospark, we offer a comprehensive suite of digital solutions designed to propel your business to new heights. Our skilled team leverages cutting-edge technologies to deliver exceptional results, from seamless website development and app development to robust backend solutions, AI/ML innovations, blockchain technology and dApp development, as well as SEO and digital marketing strategies. We cover every aspect of your digital needs with a passion for innovation and excellence.							</p>
-						</div>
-					</div>
+						</div> */}
+					{/* </div> */}
 				</ScrollAnimation>
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="flex flex-col items-center mt-24 w-full sm:max-w-[1280px] mx-auto gap-10 p-2 sm:p-10">
@@ -461,23 +463,24 @@ const Services = () => {
 											currentVisibleIndex === 3 ? "bg-[#1A1A1A]" : "bg-none"
 										} transition-opacity duration-1000`}
 									>
-										<svg
-											className="hidden lg:block"
-											width="24"
-											height="24"
-											viewBox="0 0 24 24"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M12 3V5.25M18.364 5.63604L16.773 7.22703M21 12H18.75M18.364 18.364L16.773 16.773M12 18.75V21M7.22703 16.773L5.63604 18.364M5.25 12H3M7.22703 7.22703L5.63604 5.63604M15.75 12C15.75 14.0711 14.0711 15.75 12 15.75C9.92893 15.75 8.25 14.0711 8.25 12C8.25 9.92893 9.92893 8.25 12 8.25C14.0711 8.25 15.75 9.92893 15.75 12Z"
-												stroke="white"
-												strokeWidth="1.5"
-												strokeLinecap="round"
-												strokeLinejoin="round"
-											/>
-										</svg>
-										<span className="text-xs lg:text-base ">
+<svg 
+  width="30px" 
+  height="30px" 
+  viewBox="0 0 512 512" 
+  version="1.1" 
+  xmlns="http://www.w3.org/2000/svg"
+  className="hidden md:block"
+>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="icon" fill="#fff" transform="translate(64.000000, 64.000000)">
+      <path d="M320,64 L320,320 L64,320 L64,64 L320,64 Z M171.749388,128 L146.817842,128 L99.4840387,256 L121.976629,256 L130.913039,230.977 L187.575039,230.977 L196.319607,256 L220.167172,256 L171.749388,128 Z M260.093778,128 L237.691519,128 L237.691519,256 L260.093778,256 L260.093778,128 Z M159.094727,149.47526 L181.409039,213.333 L137.135039,213.333 L159.094727,149.47526 Z M341.333333,256 L384,256 L384,298.666667 L341.333333,298.666667 L341.333333,256 Z M85.3333333,341.333333 L128,341.333333 L128,384 L85.3333333,384 L85.3333333,341.333333 Z M170.666667,341.333333 L213.333333,341.333333 L213.333333,384 L170.666667,384 L170.666667,341.333333 Z M85.3333333,0 L128,0 L128,42.6666667 L85.3333333,42.6666667 L85.3333333,0 Z M256,341.333333 L298.666667,341.333333 L298.666667,384 L256,384 L256,341.333333 Z M170.666667,0 L213.333333,0 L213.333333,42.6666667 L170.666667,42.6666667 L170.666667,0 Z M256,0 L298.666667,0 L298.666667,42.6666667 L256,42.6666667 L256,0 Z M341.333333,170.666667 L384,170.666667 L384,213.333333 L341.333333,213.333333 L341.333333,170.666667 Z M0,256 L42.6666667,256 L42.6666667,298.666667 L0,298.666667 L0,256 Z M341.333333,85.3333333 L384,85.3333333 L384,128 L341.333333,128 L341.333333,85.3333333 Z M0,170.666667 L42.6666667,170.666667 L42.666667,213.333333 L0,213.333333 L0,170.666667 Z M0,85.3333333 L42.6666667,85.3333333 L42.6666667,128 L0,128 L0,85.3333333 Z" id="Combined-Shape">
+      </path>
+    </g>
+  </g>
+</svg>
+								
+
+		<span className="text-xs lg:text-base ">
 											{" "}
 											AI/Machine Learning
 										</span>
@@ -489,22 +492,31 @@ const Services = () => {
 											currentVisibleIndex === 4 ? "bg-[#1A1A1A]" : "bg-none"
 										} transition-opacity duration-1000`}
 									>
-										<svg
-											className="hidden lg:block"
-											width="24"
-											height="24"
-											viewBox="0 0 24 24"
-											fill="none"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M12 3V5.25M18.364 5.63604L16.773 7.22703M21 12H18.75M18.364 18.364L16.773 16.773M12 18.75V21M7.22703 16.773L5.63604 18.364M5.25 12H3M7.22703 7.22703L5.63604 5.63604M15.75 12C15.75 14.0711 14.0711 15.75 12 15.75C9.92893 15.75 8.25 14.0711 8.25 12C8.25 9.92893 9.92893 8.25 12 8.25C14.0711 8.25 15.75 9.92893 15.75 12Z"
-												stroke="white"
-												strokeWidth="1.5"
-												strokeLinecap="round"
-												strokeLinejoin="round"
-											/>
-										</svg>
+<svg
+  width="35px"
+  height="35px"
+  viewBox="0 0 48 48"
+  fill="#fff"
+  stroke="#fff"
+  className="hidden md:block"
+>
+  <g id="SVGRepo_bgCarrier" strokeWidth="0" />
+  <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" />
+  <g id="SVGRepo_iconCarrier">
+    <defs>
+      <style>
+        {`.a { fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; }`}
+      </style>
+    </defs>
+    <path
+      className="a"
+      d="M21.1686,41.33,6.67,26.8314a4.0159,4.0159,0,0,1,0-5.6628L21.1686,6.67a4.0159,4.0159,0,0,1,5.6628,0L41.33,21.1686a4.0159,4.0159,0,0,1,0,5.6628L26.8314,41.33A4.0041,4.0041,0,0,1,21.1686,41.33Z"
+    />
+    <line className="a" x1="24" y1="42.5024" x2="24" y2="24" />
+    <line className="a" x1="10.1397" y1="17.6992" x2="24" y2="24" />
+    <line className="a" x1="37.8603" y1="17.6992" x2="24" y2="24" />
+  </g>
+</svg>
 										<span className="text-xs lg:text-base ">
 											{" "}
 											Blockchain Development
@@ -512,9 +524,9 @@ const Services = () => {
 									</button>
 
 								</div>
-								<ScrollAnimation variants={scaleUpVariants}>
+								{/* <ScrollAnimation variants={scaleUpVariants}> */}
 									<div className={`lg:w-[78%] px-4`}>
-										<ScrollAnimation variants={scaleUpVariants}>
+										{/* <ScrollAnimation variants={scaleUpVariants}> */}
 											<div
 												className={`web-design ${
 													currentVisibleIndex === 0
@@ -698,8 +710,8 @@ const Services = () => {
 													</div>
 												</div>
 											</div>
-										</ScrollAnimation>
-										<ScrollAnimation variants={scaleUpVariants}>
+										{/* </ScrollAnimation> */}
+										{/* <ScrollAnimation variants={scaleUpVariants}> */}
 											<div
 												className={`web-design ${
 													currentVisibleIndex === 1
@@ -817,8 +829,8 @@ const Services = () => {
 												</div>
 												</div>
 												
-										</ScrollAnimation>
-										<ScrollAnimation variants={scaleUpVariants}>
+										{/* </ScrollAnimation> */}
+										{/* <ScrollAnimation variants={scaleUpVariants}> */}
 											<div
 												className={`web-design ${
 													currentVisibleIndex === 2
@@ -945,8 +957,8 @@ const Services = () => {
 													</div>
 												</div>
 											</div>
-										</ScrollAnimation>
-										<ScrollAnimation variants={scaleUpVariants}>
+										{/* </ScrollAnimation> */}
+										{/* <ScrollAnimation variants={scaleUpVariants}> */}
 											<div
 												className={`web-design ${
 													currentVisibleIndex === 3
@@ -1125,8 +1137,8 @@ const Services = () => {
 																</div>
 
 											</div>
-										</ScrollAnimation>
-										<ScrollAnimation variants={scaleUpVariants}>
+										{/* </ScrollAnimation> */}
+										{/* <ScrollAnimation variants={scaleUpVariants}> */}
 											<div
 												className={`web-design ${
 													currentVisibleIndex === 4
@@ -1307,10 +1319,10 @@ const Services = () => {
 													</div>
 												</div>
 											</div>
-										</ScrollAnimation>
+										{/* </ScrollAnimation> */}
 
 									</div>
-								</ScrollAnimation>
+								{/* </ScrollAnimation> */}
 							</div>
 						</ScrollAnimation>
 					</div>

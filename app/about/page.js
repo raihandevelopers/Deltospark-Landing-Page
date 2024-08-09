@@ -91,7 +91,7 @@ const About = () => {
 			<main>
 				<ScrollAnimation variants={scaleUpVariants}>
 				<div className="Herro-Section">
-					<div className="lg:h-[500px] min-h-[400px] my-cardBG flex relative">
+					{/* <div className="lg:h-[500px] min-h-[400px] my-cardBG flex relative">
 						<div className="w-1/3 pt-20 lg:flex hidden">
 							<Image src={serviceLeftAngle} width={600} height={700} alt="" />
 						</div>
@@ -162,7 +162,7 @@ const About = () => {
 							committed to being at the forefront of the ever-evolving digital
 							landscape.
 						</p>
-					</div>
+					</div> */}
 				</div>
 				</ScrollAnimation>
 				<ScrollAnimation variants={scaleUpVariants}>
@@ -187,25 +187,31 @@ const About = () => {
         className="object-cover w-full h-full"
         alt=""
     />
-    <div className="absolute bottom-0 w-full h-[55%] flex flex-col items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <div className="text text-white px-3">
-            <span className="font-semibold text-lg">Raihan Khan</span>
-            <div className="text-xs font-light from-[#424242] to-transparent rounded-full">
-                <span>Founder, CEO & CTO</span>
-            </div>
-            <p className="mt-1 text-xs">The pioneering founder of Deltospark is advancing app and web development as a versatile full-stack developer.</p>
-            <div className="flex flex-wrap gap-1 mt-2 justify-left">
-                <button className="px-2 py-1 text-xs border border-white rounded-full">AI</button>
-                <button className="px-2 py-1 text-xs border border-white rounded-full">Flutter</button>
-                <button className="px-2 py-1 text-xs border border-white rounded-full">Web3.0</button>
-                <button className="px-2 py-1 text-xs border border-white rounded-full">React</button>
-                <button className="px-2 py-1 text-xs border border-white rounded-full">Next</button>
-				<button className="px-2 py-1 text-xs border border-white rounded-full">Django</button>
-
-            </div>
-            <Link href={"https://www.linkedin.com/in/raihan-khan-07a1aa21b/"}  className="px-3 py-1 mt-2 text-xs text-center bg-white text-black border border-white rounded-full">Connect</Link>
+   <div className="absolute bottom-0 w-full h-[55%] flex flex-col items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+    <div className="text-white px-3">
+        <span className="font-semibold text-lg">Raihan Khan</span>
+        <div className="text-xs font-light from-[#424242] to-transparent rounded-full">
+            <span>Founder, CEO & CTO</span>
         </div>
+        <p className="text-xs mt-1">The pioneering founder of Deltospark is advancing App, Web3, and AI development as a versatile full-stack developer.</p>
+        <div className="flex flex-wrap gap-1 mt-2">
+            <button className="px-2 py-1 text-xs border border-white rounded-full">AI</button>
+            <button className="px-2 py-1 text-xs border border-white rounded-full">Flutter</button>
+            <button className="px-2 py-1 text-xs border border-white rounded-full">Web3.0</button>
+            <button className="px-2 py-1 text-xs border border-white rounded-full">React</button>
+            <button className="px-2 py-1 text-xs border border-white rounded-full">Next</button>
+            <button className="px-2 py-1 text-xs border border-white rounded-full mt-1">Django</button>
+        </div>
+		<div className="mt-2"></div>
+		<a href="https://www.linkedin.com/in/raihan-khan-07a1aa21b/" className="flex items-center justify-center px-3 py-1.5 text-xs text-center bg-white text-black border border-white rounded-full">
+    Connect
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+    </svg>
+</a>
     </div>
+</div>
+
 </div>
 				<div className="text-center mt-2">
     <span className="font-semibold">Raihan Khan</span>
@@ -233,18 +239,21 @@ const About = () => {
     <div className="absolute bottom-0 w-full h-1/2 flex flex-col items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className="text text-white px-4">
             <span className="font-semibold text-lg">Arshad Aman</span>
-            <div className="text-xs font-light from-[#424242] to-transparent rounded-full">
-			<p className="mt-2 text-xs">The pioneering founder of Deltospark is advancing app and web development as a versatile full-stack developer.</p>
+			<div className="text-xs font-light from-[#424242] to-transparent rounded-full">
+            <span>Full-Stack Developer</span>
+        </div>
 
-                <span>Full-Stack Developer
-				</span>
+            <div className="text-xs font-light from-[#424242] to-transparent rounded-full">
+			<p className="mt-2 text-xs">A talented member of the Deltospark team, excelling in Django and backend development, crafting robust and dynamic web applications with precision.</p>
+
+             
             </div>
             <div className="flex flex-wrap gap-1 mt-2 justify-left">
                 <button className="px-2 py-1 text-xs border border-white rounded-full">Django</button>
                 <button className="px-2 py-1 text-xs border border-white rounded-full">Flask</button>
                 <button className="px-2 py-1 text-xs border border-white rounded-full">React</button>
-                <button className="px-2 py-1 text-xs border border-white rounded-full">System Design</button>
-				<button className="px-2 py-1 text-xs border border-white rounded-full">Flutter</button>
+                <button className="px-2 py-1 text-xs border border-white rounded-full mt-1">System Design</button>
+				<button className="px-2 py-1 text-xs border border-white rounded-full mt-1">Flutter</button>
 
             </div>
         </div>
@@ -287,13 +296,13 @@ const About = () => {
             <div className="text-xs font-light from-[#424242] to-transparent rounded-full">
                 <span>MERN Stack Developer</span>
             </div>
-            <p className="mt-2 text-xs">The pioneering founder of Deltospark is advancing app and web development as a versatile full-stack developer.</p>
+            <p className="mt-2 text-xs">A skilled member of the Deltospark team, specializing in the MERN stack, delivering powerful and responsive web applications with expertise in MongoDB, Express, React, and Node.js.</p>
             <div className="flex flex-wrap gap-1 mt-2 justify-left">
                 <button className="px-2 py-1 text-xs border border-white rounded-full">Node</button>
                 <button className="px-2 py-1 text-xs border border-white rounded-full">React</button>
                 <button className="px-2 py-1 text-xs border border-white rounded-full">Next</button>
                 <button className="px-2 py-1 text-xs border border-white rounded-full">DevOps</button>
-                <button className="px-2 py-1 text-xs border border-white rounded-full">Nuxt</button>
+                <button className="px-2 py-1 text-xs border border-white rounded-full mt-1">Nuxt</button>
             </div>
         </div>
     </div>
@@ -331,13 +340,13 @@ const About = () => {
             <div className="text-xs font-light from-[#424242] to-transparent rounded-full">
                 <span>UI/UX Designer</span>
             </div>
-            <p className="mt-2 text-xs">The pioneering founder of Deltospark is advancing app and web development as a versatile full-stack developer.</p>
+            <p className="mt-2 text-xs">A creative member of the Deltospark team, specializing in UI/UX design, crafting intuitive and visually appealing user experiences that enhance engagement and usability.</p>
             <div className="flex flex-wrap gap-1 mt-2 justify-left">
                 <button className="px-2 py-1 text-xs border border-white rounded-full">Figma</button>
                 <button className="px-2 py-1 text-xs border border-white rounded-full">Photoshop</button>
                 <button className="px-2 py-1 text-xs border border-white rounded-full">XD</button>
 				<button className="px-2 py-1 text-xs border border-white rounded-full">Illustrator</button>
-                <button className="px-2 py-1 text-xs border border-white rounded-full">React</button>
+                <button className="px-2 py-1 text-xs border border-white rounded-full mt-1">React</button>
             </div>
         </div>
     </div>
