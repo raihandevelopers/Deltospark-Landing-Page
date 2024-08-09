@@ -10,6 +10,7 @@ import projectStrategic from "@/public/projectStrategic.svg";
 import projectCard from "@/public/projectCard4,5.svg";
 import servicesprotfolio1 from "@/public/servicesprotfolio1.svg";
 import servicesprotfolio2 from "@/public/servicesportfolio2.jpg";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
@@ -120,6 +121,7 @@ const Projects = () => {
 			/>
 			<ToastContainer />
 			<Analytics />
+			<SpeedInsights />
 
 			<ScrollAnimation variants={scaleUpVariants}>
 <div className="Herro-Section">

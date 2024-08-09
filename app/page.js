@@ -33,6 +33,7 @@ import servicesprotfolio4 from "@/public/Plenty Blockchain/Plentybanner.jpg";
 import servicesprotfolio5 from "@/public/MLB/mlb1.jpg";
 import { Analytics } from "@vercel/analytics/react"
 import Hotjar from '@hotjar/browser';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function Home() {
 	const [isHidden1, setIsHidden1] = useState(true);
@@ -184,6 +185,7 @@ Hotjar.init(siteId, hotjarVersion);
 			<ToastContainer />
 			<main className=" mx-auto ">
 			<Analytics />
+			<SpeedInsights />
 
 			
 
