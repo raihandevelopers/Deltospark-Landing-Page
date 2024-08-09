@@ -11,7 +11,6 @@ import { Bounce } from "react-toastify";
 import ScrollAnimation from "@/components/ScrollAnimation";
 import { scaleUpVariants } from "@/animation/variants";
 import { Analytics } from "@vercel/analytics/react"
-import Hotjar from '@hotjar/browser';
 
 const Contact = () => {
 	const [formData, setFormData] = useState({
@@ -31,11 +30,6 @@ const Contact = () => {
 		});
 	};
 
-
-	const siteId = 5089683;
-	const hotjarVersion = 6;
-	
-	Hotjar.init(siteId, hotjarVersion);
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();

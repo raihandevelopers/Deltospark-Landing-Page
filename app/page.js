@@ -32,7 +32,6 @@ import servicesprotfolio3 from "@/public/Hov3r Web3 Marketplace/hovrbanner.jpg";
 import servicesprotfolio4 from "@/public/Plenty Blockchain/Plentybanner.jpg";
 import servicesprotfolio5 from "@/public/MLB/mlb1.jpg";
 import { Analytics } from "@vercel/analytics/react"
-import Hotjar from '@hotjar/browser';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function Home() {
@@ -69,12 +68,6 @@ export default function Home() {
 	const toggleVisibility = () => {
 		setIsHidden(!isHidden);
 	};
-
-	const siteId = 5089683;
-const hotjarVersion = 6;
-
-Hotjar.init(siteId, hotjarVersion);
-
 
 
 	const testimonials = [
