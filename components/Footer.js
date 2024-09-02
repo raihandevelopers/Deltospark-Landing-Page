@@ -17,8 +17,8 @@ const Footer = () => {
 						</div>
 						<div className="flex gap-4 w-[500px] justify-end  items-center ">
 							<span className="sm:block hidden">Follow Us on Social Media</span>
-							<Link href="https://www.linkedin.com/company/deltospark/" className="LInkedIn ">
-								<svg
+							<Link href="https://www.linkedin.com/company/deltospark/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+							<svg
 									width="40"
 									height="40"
 									viewBox="0 0 64 64"
@@ -262,8 +262,15 @@ const Footer = () => {
 									</defs>
 								</svg>
 							</Link>
+
+							
+
 						</div>
+						
 					</div>
+
+
+
 					<div className="sm:flex justify-between max-w-[90%] mx-auto border-b border-[#1F1F1F]  p-5  hidden">
 						<div className=" flex-col items-center ">
 							<h4 className=" font-semibold ">Home</h4>

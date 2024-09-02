@@ -2321,8 +2321,8 @@ AIxFigma is a plugin for Figma that uses advanced technology to help you easily 
 											src={projectStrategic}
 											width={50}
 											height={50}
-											alt=""
-										/>
+											alt="Strategic Project Management for Effective Development"
+											/>
 										<h4 className="font-semibold text-center text-sm">
 											Strategic planning
 										</h4>
@@ -2340,8 +2340,8 @@ AIxFigma is a plugin for Figma that uses advanced technology to help you easily 
 											src={projectCustomized}
 											width={50}
 											height={50}
-											alt=""
-										/>
+											alt="Customized Development Solutions Tailored to Your Business Needs"
+											/>
 										<h4 className="font-semibold text-sm text-center">
 											Customized Solutions
 										</h4>
@@ -2362,7 +2362,8 @@ AIxFigma is a plugin for Figma that uses advanced technology to help you easily 
 							<div className="lg:w-[28%]">
 								<ScrollAnimation variants={scaleUpVariants}>
 									<div className=" h-full items-center p-4 flex flex-col gap-4">
-										<Image src={projectUser} width={50} height={50} alt="" />
+										<Image src={projectUser} width={50} height={50} alt="User-Centric Development for Seamless and Intuitive Digital Experiences"
+ />
 										<h4 className="font-semibold text-sm text-center">
 											User-Centric Approach
 										</h4>
@@ -2376,7 +2377,8 @@ AIxFigma is a plugin for Figma that uses advanced technology to help you easily 
 							<div className="lg:w-[42%]">
 								<ScrollAnimation variants={scaleUpVariants}>
 									<div className="h-full flex flex-col p-4 items-center gap-4">
-										<Image src={projectCard} width={50} height={50} alt="" />
+										<Image src={projectCard} width={50} height={50} alt="Cutting-Edge Technologies for High-Performance, Future-Proof Solutions"
+ />
 										<h4 className="font-semibold text-center text-sm">
 											Cutting-Edge Technologies
 										</h4>
@@ -2393,7 +2395,8 @@ AIxFigma is a plugin for Figma that uses advanced technology to help you easily 
 							<div className="lg:w-[42%]">
 								<ScrollAnimation variants={scaleUpVariants}>
 									<div className="h-full items-center p-4 flex flex-col gap-4">
-										<Image src={projectCard} width={50} height={50} alt="" />
+										<Image src={projectCard} width={50} height={50} alt="Timely Delivery of High-Quality Tech Solutions"
+ />
 										<h4 className="font-semibold text-sm">Timely Delivery</h4>
 										<p className="text-sm font-thin text-center">
 										We adhere to strict timelines and project schedules to ensure timely delivery without compromising quality.

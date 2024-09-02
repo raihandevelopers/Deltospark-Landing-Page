@@ -185,7 +185,7 @@ const About = () => {
         height={2000}
         src={profile}
         className="object-cover w-full h-full"
-        alt=""
+        alt="Raihan Khan - Founder, CEO & CTO at Deltospark"
     />
    <div className="absolute bottom-0 w-full h-[55%] flex flex-col items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
     <div className="text-white px-3">
@@ -234,7 +234,7 @@ const About = () => {
         height={2000}
         src={profile2}
         className="object-cover w-full h-full"
-        alt=""
+        alt="Arshad Aman - Lead developer at Deltospark"
     />
     <div className="absolute bottom-0 w-full h-1/2 flex flex-col items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className="text text-white px-4">
@@ -288,7 +288,7 @@ const About = () => {
         height={2000}
         src={profile3}
         className="object-cover w-full h-full"
-        alt=""
+        alt="MERN Stack Developer at Deltospark"
     />
     <div className="absolute bottom-0 w-full h-1/2 flex flex-col items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className="text text-white px-4">
@@ -332,7 +332,7 @@ const About = () => {
         height={2000}
         src={profile4}
         className="object-cover w-full h-full"
-        alt=""
+        alt="Atishmita Dash - UI/UX Designer at Deltospark"
     />
     <div className="absolute bottom-0 w-full h-1/2 flex flex-col items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className="text text-white px-4">

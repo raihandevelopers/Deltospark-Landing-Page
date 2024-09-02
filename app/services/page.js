@@ -195,7 +195,8 @@ const Services = () => {
 							<div className="lg:w-1/2">
 								<ScrollAnimation variants={scaleUpVariants}>
 									<div className="border border-[#292929] h-[500px] rounded-2xl my-cardBG flex flex-col justify-center items-center gap-10">
-										<Image src={cardIconOne} width={100} height={100} alt="" />
+										<Image src={cardIconOne} width={100} height={100} alt="Website Development services, highlighting custom web design and development solutions"
+ />
 										<div className="flex flex-col justify-center items-center gap-4 w-[90%]">
 											<h3 className="text-xl font-semibold">Website Development
 											</h3>
@@ -234,8 +235,8 @@ const Services = () => {
 							<div className="lg:w-1/2">
 								<ScrollAnimation variants={scaleUpVariants}>
 									<div className="border border-[#292929] h-[500px] rounded-2xl my-cardBG flex flex-col justify-center items-center gap-10">
-										<Image src={cardIconTwo} width={100} height={100} alt="" />
-										<div className="flex flex-col justify-center items-center gap-4 w-[90%]">
+									<Image src={cardIconTwo} width={100} height={100} alt="Mobile App Development Services including iOS, Android, and Cross-Platform Solutions" />
+									<div className="flex flex-col justify-center items-center gap-4 w-[90%]">
 											<h3 className="text-xl font-semibold">
 											Mobile App Development
 											{" "}
@@ -282,7 +283,7 @@ const Services = () => {
 											src={cardIconThree}
 											width={100}
 											height={100}
-											alt=""
+											alt="Web Design Services showcasing modern, responsive website layouts and user-friendly interfaces"
 										/>
 										<div className="flex flex-col justify-center items-center gap-4 w-[90%]">
 											<h3 className="text-xl font-semibold text-center">
@@ -328,8 +329,8 @@ const Services = () => {
 											src={cardIconFourth}
 											width={100}
 											height={100}
-											alt=""
-										/>
+											alt="AI and Machine Learning solutions, showcasing advanced algorithms and data analytics"
+											/>
 										<div className="flex flex-col justify-center items-center gap-4 w-[90%]">
 											<h3 className="text-xl font-semibold">
 											AI & Machine Learning
