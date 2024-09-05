@@ -168,11 +168,10 @@ const About = () => {
 				<ScrollAnimation variants={scaleUpVariants}>
 				<div className="flex flex-col items-center mt-24  sm:max-w-[1280px] mx-auto gap-10 p-2 sm:p-10">
 					<h1 className="text-center text-3xl font-semibold lg:w-[500px]">
-						<span className="text-[#808080]">Our</span> Team Members
+					<span className="text-[#808080]">Our</span>Development Experts
 					</h1>
 					<p className="text-mm font-bold text-[#808080] text-center lg:w-[900px]">
 					Meet The Lean, Mean, Design and Code Machine At Deltospark
-
 					</p>
 					<div className="w-full min-h-full flex flex-col gap-4 p-8">
   <div className="w-full h-full flex flex-col items-center justify-center gap-8">
@@ -185,7 +184,7 @@ const About = () => {
         height={2000}
         src={profile}
         className="object-cover w-full h-full"
-        alt="Raihan Khan - Founder, CEO & CTO at Deltospark"
+        alt="Raihan Khan"
     />
    <div className="absolute bottom-0 w-full h-[55%] flex flex-col items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
     <div className="text-white px-3">
@@ -234,7 +233,7 @@ const About = () => {
         height={2000}
         src={profile2}
         className="object-cover w-full h-full"
-        alt="Arshad Aman - Lead developer at Deltospark"
+        alt="ai in web"
     />
     <div className="absolute bottom-0 w-full h-1/2 flex flex-col items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className="text text-white px-4">
@@ -288,7 +287,7 @@ const About = () => {
         height={2000}
         src={profile3}
         className="object-cover w-full h-full"
-        alt="MERN Stack Developer at Deltospark"
+        alt="website designing companies"
     />
     <div className="absolute bottom-0 w-full h-1/2 flex flex-col items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className="text text-white px-4">
@@ -332,7 +331,7 @@ const About = () => {
         height={2000}
         src={profile4}
         className="object-cover w-full h-full"
-        alt="Atishmita Dash - UI/UX Designer at Deltospark"
+        alt="mobile development company"
     />
     <div className="absolute bottom-0 w-full h-1/2 flex flex-col items-center justify-center bg-black bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className="text text-white px-4">
@@ -842,9 +841,9 @@ const About = () => {
 				<ScrollAnimation variants={scaleUpVariants}>
 				<div className=" mt-24  mx-5 min-h-[700px]  border border-[#262626] rounded-2xl p-5  my-cardBG flex flex-col items-center">
 					<div className="mt-16 xl:w-[900px] flex flex-col gap-5 lg:px-10">
-						<h1 className="text-2xl font-semibold text-center">
+						<h2 className="text-2xl font-semibold text-center">
 							Ready to Transform Your Digital Presence?
-						</h1>
+						</h2>
 						<p className="text-sm text-center text-[#808080]">
 						Take the first step towards digital success with Deltospark by your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or cutting-edge blockchain, dApp, and AI/ML solutions, we've got you covered. Let’s embark on this transformative journey together.
 

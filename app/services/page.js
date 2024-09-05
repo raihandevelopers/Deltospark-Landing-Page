@@ -185,7 +185,7 @@ const Services = () => {
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="flex flex-col items-center mt-24 w-full sm:max-w-[1280px] mx-auto gap-10 p-2 sm:p-10">
 						<h1 className="text-center text-3xl font-semibold max-w-[500px]">
-							<span className="text-[#808080]">Our</span> Services
+						<span className="text-[#808080]">Our</span> 360° Development Services
 						</h1>
 						<p className="text-sm text-[#808080] text-center max-w-[900px]">
 						Our comprehensive range of services includes website development, mobile app development, web design, backend solutions, AI, machine learning, blockchain technology, SEO, data-driven marketing strategies, and more. Whether you’re a startup or an established enterprise, our experts will craft solutions that drive results.
@@ -195,7 +195,7 @@ const Services = () => {
 							<div className="lg:w-1/2">
 								<ScrollAnimation variants={scaleUpVariants}>
 									<div className="border border-[#292929] h-[500px] rounded-2xl my-cardBG flex flex-col justify-center items-center gap-10">
-										<Image src={cardIconOne} width={100} height={100} alt="Website Development services, highlighting custom web design and development solutions"
+										<Image src={cardIconOne} width={100} height={100} alt="Deltospark agency"
  />
 										<div className="flex flex-col justify-center items-center gap-4 w-[90%]">
 											<h3 className="text-xl font-semibold">Website Development
@@ -235,7 +235,7 @@ const Services = () => {
 							<div className="lg:w-1/2">
 								<ScrollAnimation variants={scaleUpVariants}>
 									<div className="border border-[#292929] h-[500px] rounded-2xl my-cardBG flex flex-col justify-center items-center gap-10">
-									<Image src={cardIconTwo} width={100} height={100} alt="Mobile App Development Services including iOS, Android, and Cross-Platform Solutions" />
+									<Image src={cardIconTwo} width={100} height={100} alt="crm development" />
 									<div className="flex flex-col justify-center items-center gap-4 w-[90%]">
 											<h3 className="text-xl font-semibold">
 											Mobile App Development
@@ -283,7 +283,7 @@ const Services = () => {
 											src={cardIconThree}
 											width={100}
 											height={100}
-											alt="Web Design Services showcasing modern, responsive website layouts and user-friendly interfaces"
+											alt="top rated freelancers"
 										/>
 										<div className="flex flex-col justify-center items-center gap-4 w-[90%]">
 											<h3 className="text-xl font-semibold text-center">
@@ -329,7 +329,7 @@ const Services = () => {
 											src={cardIconFourth}
 											width={100}
 											height={100}
-											alt="AI and Machine Learning solutions, showcasing advanced algorithms and data analytics"
+											alt="top rated software development agency"
 											/>
 										<div className="flex flex-col justify-center items-center gap-4 w-[90%]">
 											<h3 className="text-xl font-semibold">
@@ -372,9 +372,9 @@ const Services = () => {
 				</ScrollAnimation>
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="flex flex-col items-center mt-24 w-full sm:max-w-[1280px] mx-auto gap-10 p-2 sm:p-10">
-						<h1 className="text-center text-3xl font-semibold max-w-[500px]">
+						<h2 className="text-center text-3xl font-semibold max-w-[500px]">
 							<span className="text-[#808080]">Categories of</span> Services
-						</h1>
+						</h2>
 						<p className="text-sm text-[#808080] text-center max-w-[900px]">
 						At Deltospark, we provide exceptional digital solutions tailored to your unique business needs. Our services include web design, app development, web development, AI/ML, blockchain technology, dApp development, and SEO/digital marketing.						</p>
 						<ScrollAnimation variants={scaleUpVariants}>
@@ -557,14 +557,14 @@ const Services = () => {
 															<Image
 																src={servicesprotfolio3}
 																className="object-contain"
-																alt=""
+																alt="web3 development"
 															/>
 														</div>
 														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
 															<Image
 																src={servicesprotfolio4}
 																className="object-contain"
-																alt=""
+																alt="mobile app developers near me"
 															/>
 														</div>
 													</div>
@@ -606,9 +606,9 @@ const Services = () => {
 													<div className="w-full h-full flex flex-col gap-10">
 														<div className="flex flex-col md:flex-row gap-5 w-full h-1/2">
 															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																 Design
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																In this phase, we develop wireframes to outline the website’s structure and user flow. our ui/ux designers then create high-fidelity designs to visualize the user interface and experience. we gather feedback and make necessary adjustments to ensure the design aligns with your vision.
 
@@ -618,9 +618,9 @@ const Services = () => {
 															<div className="border-r border-[#1F1F1F]"></div>
 															<div className="border-b border-[#1F1F1F] "></div>
 															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																	Development
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																Our development team implements the design using suitable technologies such as html, css (including tailwind css), javascript, react, next.js, node.js, django, or flask. we set up the server, database, and application logic. integration of third-party services, apis, and any necessary backend systems is also carried out during this phase.
 																</p>
@@ -631,9 +631,9 @@ const Services = () => {
 
 														<div className="flex flex-col md:flex-row gap-5 w-full h-1/2 ">
 															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																Testing and launch
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																We conduct rigorous testing to ensure all features work correctly and the website is compatible across browsers and devices. performance testing optimizes loading times and responsiveness. once testing is complete, we deploy the website to a live server, followed by a final review and training on website management and updates.
 
@@ -643,9 +643,9 @@ const Services = () => {
 															<div className="border-r border-[#1F1F1F]"></div>
 															<div className="border-b border-[#1F1F1F]"></div>
 															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																Maintenance and support
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																Our commitment to your website doesn’t end with its launch. we provide regular updates to keep your website secure and up-to-date. ongoing support is available for any issues or changes needed. we also monitor website performance and provide insights for continuous improvement.
 
@@ -740,7 +740,7 @@ const Services = () => {
 														<Image
 														src={servicesprotfolio1}
 														className="object-cover w-full h-full"
-														alt=""
+														alt="web designers near me"
 														/>
 													</div>
 													</div>
@@ -782,8 +782,8 @@ const Services = () => {
 													<div className="w-full h-full flex flex-col gap-10">
 														<div className="flex flex-col md:flex-row gap-5 w-full h-1/2">
 															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
-																<h1 className="font-semibold">
-																Discovery and planning																</h1>
+																<h2 className="font-semibold">
+																Discovery and planning																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																Our journey begins with a thorough consultation to understand your business, goals, target audience, and specific requirements. we conduct extensive research to analyze competitors, market trends, and best practices. this phase culminates in defining the project scope, creating a product roadmap, and establishing clear timelines to ensure a structured and efficient development process.
 
@@ -792,9 +792,9 @@ const Services = () => {
 															<div className="border-r border-[#1F1F1F]"></div>
 															<div className="border-b border-[#1F1F1F] "></div>
 															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																	Responsive Design
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																In this phase, we develop wireframes to outline the app’s structure and user flow. our ui/ux designers then create high-fidelity designs to visualize the user interface and experience. we gather feedback and make necessary adjustments to ensure the design aligns with your vision.
 
@@ -806,9 +806,9 @@ const Services = () => {
 
 														<div className="flex flex-col md:flex-row gap-5 w-full h-1/2 ">
 															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																	Development
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																Our development team implements the design using suitable frameworks and technologies for ios and android. we set up the server, database, and application logic using technologies like node.js, django, or flask. integration of third-party services, apis, and any necessary backend systems is also carried out during this phase.
 
@@ -817,9 +817,9 @@ const Services = () => {
 															<div className="border-r border-[#1F1F1F]"></div>
 															<div className="border-b border-[#1F1F1F]"></div>
 															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																	Testing and launch
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																We conduct rigorous testing to ensure all features work correctly and the app is compatible across devices and operating systems. performance testing optimizes loading times and responsiveness. once testing is complete, we publish the app to the app store and google play store, followed by a final review and training on app management and updates.
 
@@ -859,14 +859,14 @@ const Services = () => {
 															<Image
 																src={servicesprotfolio3}
 																className="object-contain"
-																alt=""
+																alt="saas developers near me"
 															/>
 														</div>
 														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
 															<Image
 																src={servicesprotfolio4}
 																className="object-contain"
-																alt=""
+																alt="affordable development services"
 															/>
 														</div>
 													</div>
@@ -910,9 +910,9 @@ const Services = () => {
 													<div className="w-full h-full flex flex-col gap-10">
 														<div className="flex flex-col md:flex-row gap-5 w-full h-1/2">
 															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																	Customized Design
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																	We craft bespoke designs tailored to match
 																	your brand personality and industry.
@@ -921,9 +921,9 @@ const Services = () => {
 															<div className="border-r border-[#1F1F1F]"></div>
 															<div className="border-b border-[#1F1F1F] "></div>
 															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																	Responsive Design
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																	Ensuring your website adapts seamlessly to
 																	different devices and screen sizes.
@@ -935,9 +935,9 @@ const Services = () => {
 
 														<div className="flex flex-col md:flex-row gap-5 w-full h-1/2 ">
 															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																	User-Centric Approach
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																	Prioritizing ease of navigation and intuitive
 																	user experience.
@@ -946,9 +946,9 @@ const Services = () => {
 															<div className="border-r border-[#1F1F1F]"></div>
 															<div className="border-b border-[#1F1F1F]"></div>
 															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																	Visual Elements
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																	Incorporating engaging visuals, graphics, and
 																	animations to enhance the overall appeal.
@@ -987,14 +987,14 @@ const Services = () => {
 															<Image
 																src={servicesprotfolio5}
 																className="object-contain"
-																alt=""
+																alt="Best app development company"
 															/>
 														</div>
 														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
 															<Image
 																src={servicesprotfolio2}
 																className="object-contain"
-																alt=""
+																alt="best web development company"
 															/>
 														</div>
 													</div>
@@ -1032,9 +1032,9 @@ const Services = () => {
 													<div className="w-full h-full flex flex-col gap-10">
 														<div className="flex flex-col md:flex-row gap-5 w-full h-1/2">
 															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																Discovery and planning
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																Our journey begins with a thorough consultation to understand your business, goals, and specific requirements. we conduct extensive research to analyze industry trends, data sources, and best practices. this phase culminates in defining the project scope, creating a data strategy, and establishing clear timelines to ensure a structured and efficient development process.
 
@@ -1044,9 +1044,9 @@ const Services = () => {
 															<div className="border-r border-[#1F1F1F]"></div>
 															<div className="border-b border-[#1F1F1F]"></div>
 															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																Data collection and preprocessing
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																In this phase, we gather relevant data from various sources and preprocess it to ensure quality and consistency. data cleaning, normalization, and transformation are performed to prepare the data for model training. we also conduct exploratory data analysis (eda) to uncover patterns and insights.
 
@@ -1059,9 +1059,9 @@ const Services = () => {
 
 														<div className="flex md:flex-row flex-col gap-5 w-full h-1/2 ">
 															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																Model development and training
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																Once the models are fully developed and tested, we deploy them into your production environment. we set up monitoring systems to track the model’s performance and make adjustments as needed. ongoing support is provided to address any issues and ensure the models continue to deliver accurate and actionable insights.
 
@@ -1071,9 +1071,9 @@ const Services = () => {
 															<div className="border-r border-[#1F1F1F]"></div>
 															<div className="border-b border-[#1F1F1F]"></div>
 															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																Deployment and monitoring
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																Once the models are fully developed and tested, we deploy them into your production environment. we set up monitoring systems to track the model’s performance and make adjustments as needed. ongoing support is provided to address any issues and ensure the models continue to deliver accurate and actionable insights.
 
@@ -1167,14 +1167,14 @@ const Services = () => {
 															<Image
 																src={servicesprotfolio1}
 																className="object-contain"
-																alt=""
+																alt="SaaS developers"
 															/>
 														</div>
 														<div className="md:w-1/2 h-full rounded-lg overflow-hidden">
 															<Image
 																src={servicesprotfolio4}
 																className="object-contain"
-																alt=""
+																alt="UI/UX design services"
 															/>
 														</div>
 													</div>
@@ -1216,9 +1216,9 @@ const Services = () => {
 													<div className="w-full h-full flex flex-col gap-10">
 														<div className="flex flex-col md:flex-row gap-5 w-full h-1/2">
 															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																Architecture design and development
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																In this phase, we design the blockchain architecture, including the network setup, smart contract design, and consensus mechanism. our developers build the blockchain solution using technologies like ethereum, hyperledger, or fabric, and develop smart contracts and decentralized applications (dapps). we ensure that the architecture aligns with your requirements and industry best practices.
 
@@ -1228,10 +1228,10 @@ const Services = () => {
 															<div className="border-r border-[#1F1F1F]"></div>
 															<div className="border-b border-[#1F1F1F] "></div>
 															<div className="p-4 flex flex-col gap-2 justify-center md:w-1/2">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																Integration and customization
 
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																We integrate the blockchain solution with your existing systems and customize it to fit your specific needs. this may include developing APIs for interoperability, configuring user interfaces, and ensuring smooth interaction between blockchain components and other software systems.
 
@@ -1245,9 +1245,9 @@ const Services = () => {
 
 														<div className="flex flex-col md:flex-row gap-5 w-full h-1/2 ">
 															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																Testing and validation
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																We conduct rigorous testing to ensure the blockchain solution is secure, reliable, and performs as expected. this includes testing smart contracts, verifying transaction integrity, and ensuring compliance with blockchain protocols. we also perform stress testing to evaluate the system's performance under various conditions.
 
@@ -1257,9 +1257,9 @@ const Services = () => {
 															<div className="border-r border-[#1F1F1F]"></div>
 															<div className="border-b border-[#1F1F1F]"></div>
 															<div className="p-4 flex flex-col gap-2 md:w-1/2 justify-center">
-																<h1 className="font-semibold">
+																<h2 className="font-semibold">
 																Deployment and support
-																</h1>
+																</h2>
 																<p className="text-sm text-[#8C8C8C]">
 																Once the solution is fully tested and validated, we deploy it to the production environment. we provide ongoing support to address any issues and ensure the system operates smoothly. we also offer monitoring and maintenance services to keep the blockchain solution up-to-date and optimized for performance.
 
@@ -1331,9 +1331,9 @@ const Services = () => {
 				</ScrollAnimation>
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="flex flex-col items-center mt-24 w-full sm:max-w-[1280px] mx-auto gap-10 relative p-2 sm:p-10">
-						<h1 className="text-center text-3xl font-semibold max-w-[500px]">
+						<h2 className="text-center text-3xl font-semibold max-w-[500px]">
 							Success <span className="text-[#808080]">Stories</span>
-						</h1>
+						</h2>
 						<p className="text-sm text-[#808080] text-center max-w-[900px]">
 						At Deltospark, our success is defined by the achievements of our valued clients. We take immense pride in the transformative impact our digital solutions have had on their businesses. Here are some inspiring success stories that highlight the outcomes of our collaborative efforts.
 
@@ -1877,9 +1877,9 @@ const Services = () => {
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className=" mt-24  mx-5 min-h-[700px]  border border-[#262626] rounded-2xl p-5  my-cardBG flex flex-col items-center">
 						<div className="mt-16 xl:w-[900px] flex flex-col gap-5 lg:px-10">
-							<h1 className="text-2xl font-semibold text-center">
+							<h2 className="text-2xl font-semibold text-center">
 								Ready to Transform Your Digital Presence?
-							</h1>
+							</h2>
 							<p className="text-sm text-center text-[#808080]">
 							Take the first step towards digital success with Deltospark by your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or cutting-edge blockchain, dApp, and AI/ML solutions, we've got you covered. Let’s embark on this transformative journey together.
 

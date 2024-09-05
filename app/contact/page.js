@@ -91,7 +91,7 @@ const Contact = () => {
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="flex flex-col items-center mt-4 w-full sm:max-w-[1280px] p-4 sm:p-10 mx-auto gap-10 team-BG min-h-[300px] justify-center border border-[#1F1F1F] rounded-xl ">
 						<h1 className="text-center text-3xl font-semibold lg:w-[500px]">
-							<span className="text-[#808080]">Get in</span> Touch with Us Today!
+						<span className="text-[#808080]">Reach Out</span> for Personalized Web & App Development
 						</h1>
 						<p className="text-sm text-[#808080] text-center lg:w-[900px]">
 						At Deltospark, we value your inquiries, feedback, and collaborations. Whether you are interested in our digital services, have questions about our projects, or want to explore potential partnerships, our dedicated team is here to assist you. Fill out the form below, and we'll get back to you within 24 hours. We look forward to supporting you on your digital journey.
@@ -695,9 +695,9 @@ const Contact = () => {
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className=" mt-24  mx-5 min-h-[700px]  border border-[#262626] rounded-2xl p-5  my-cardBG flex flex-col items-center">
 						<div className="mt-16 xl:w-[900px] flex flex-col gap-5 lg:px-10">
-							<h1 className="text-2xl font-semibold text-center">
+							<h2 className="text-2xl font-semibold text-center">
 								Ready to Transform Your Digital Presence?
-							</h1>
+							</h2>
 							<p className="text-sm text-center text-[#808080]">
 							Take the first step towards digital success with Deltospark by
 								your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or cutting-edge blockchain, dApp, and AI/ML solutions, we've got you covered. Let’s embark on this transformative journey together.
@@ -720,7 +720,7 @@ const Contact = () => {
 						</div>
 
 						<div className="h-[390px] w-full flex justify-center items-center">
-      <img src="/deltospark big logo.png" alt="Deltospark Logo - Premier Software Development Agency"
+      <img src="/deltospark big logo.png" alt="Deltospark"
  />
 						</div>
 					</div>

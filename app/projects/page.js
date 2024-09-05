@@ -198,7 +198,7 @@ const Projects = () => {
 			<ScrollAnimation>
 				<div className="flex flex-col items-center mt-24 w-full lg:max-w-[1280px] p-2 lg:p-10 mx-auto gap-10">
 					<h1 className="text-center xl:text-4xl text-2xl font-semibold w-full lg:w-[500px]">
-						Projects <span className="text-[#808080]">Showcase</span>
+					Projects <span className="text-[#808080]">Showcase</span> & Success Stories
 					</h1>
 					<p className="text-sm text-[#808080] text-center lg:w-[900px]">
 					Witness the brilliance of our past projects. Our portfolio showcases successful collaborations with diverse clients across various industries. Let our work speak for itself.
@@ -2307,9 +2307,9 @@ AIxFigma is a plugin for Figma that uses advanced technology to help you easily 
 			</ScrollAnimation>
 			<ScrollAnimation variants={scaleUpVariants}>
 				<div className="flex flex-col items-center mt-24 w-full sm:max-w-[1280px] p-2 sm:p-10 mx-auto gap-10">
-					<h1 className="text-center text-3xl font-semibold lg:w-[500px]">
+					<h2 className="text-center text-3xl font-semibold lg:w-[500px]">
 						Key Features <span className="text-[#808080]">of Our Projects</span>
-					</h1>
+					</h2>
 					<p className="text-sm text-[#808080] text-center lg:w-[900px]">
 					Partnering with Deltospark boosts your brand visibility, engagement, and ROI. We offer tailored solutions in website, app development, AI, Blockchain and more to meet your unique needs. Think of us as your agile tech partner, delivering clear, effective solutions that drive results and simplify complex technology.				</p>
 					<div className="w-full justify-center flex flex-col gap-10">
@@ -2321,7 +2321,7 @@ AIxFigma is a plugin for Figma that uses advanced technology to help you easily 
 											src={projectStrategic}
 											width={50}
 											height={50}
-											alt="Strategic Project Management for Effective Development"
+											alt="dating apps"
 											/>
 										<h4 className="font-semibold text-center text-sm">
 											Strategic planning
@@ -2340,7 +2340,7 @@ AIxFigma is a plugin for Figma that uses advanced technology to help you easily 
 											src={projectCustomized}
 											width={50}
 											height={50}
-											alt="Customized Development Solutions Tailored to Your Business Needs"
+											alt="ai apps"
 											/>
 										<h4 className="font-semibold text-sm text-center">
 											Customized Solutions
@@ -2362,7 +2362,7 @@ AIxFigma is a plugin for Figma that uses advanced technology to help you easily 
 							<div className="lg:w-[28%]">
 								<ScrollAnimation variants={scaleUpVariants}>
 									<div className=" h-full items-center p-4 flex flex-col gap-4">
-										<Image src={projectUser} width={50} height={50} alt="User-Centric Development for Seamless and Intuitive Digital Experiences"
+										<Image src={projectUser} width={50} height={50} alt="taxi app development company"
  />
 										<h4 className="font-semibold text-sm text-center">
 											User-Centric Approach
@@ -2377,7 +2377,7 @@ AIxFigma is a plugin for Figma that uses advanced technology to help you easily 
 							<div className="lg:w-[42%]">
 								<ScrollAnimation variants={scaleUpVariants}>
 									<div className="h-full flex flex-col p-4 items-center gap-4">
-										<Image src={projectCard} width={50} height={50} alt="Cutting-Edge Technologies for High-Performance, Future-Proof Solutions"
+										<Image src={projectCard} width={50} height={50} alt="apps for sell"
  />
 										<h4 className="font-semibold text-center text-sm">
 											Cutting-Edge Technologies
@@ -2395,7 +2395,7 @@ AIxFigma is a plugin for Figma that uses advanced technology to help you easily 
 							<div className="lg:w-[42%]">
 								<ScrollAnimation variants={scaleUpVariants}>
 									<div className="h-full items-center p-4 flex flex-col gap-4">
-										<Image src={projectCard} width={50} height={50} alt="Timely Delivery of High-Quality Tech Solutions"
+										<Image src={projectCard} width={50} height={50} alt="medicine delivery apps"
  />
 										<h4 className="font-semibold text-sm">Timely Delivery</h4>
 										<p className="text-sm font-thin text-center">
@@ -2416,9 +2416,9 @@ AIxFigma is a plugin for Figma that uses advanced technology to help you easily 
 			</ScrollAnimation>
 			<ScrollAnimation variants={scaleUpVariants}>
 				<div className="flex flex-col items-center mt-24 w-full sm:max-w-[1280px] p-2 lg:p-10 mx-auto gap-10">
-					<h1 className="text-center text-3xl font-semibold lg:w-[500px]">
+					<h2 className="text-center text-3xl font-semibold lg:w-[500px]">
 						Upcoming <span className="text-[#808080]">Projects</span>
-					</h1>
+					</h2>
 					<p className="text-sm text-[#808080] text-center lg:w-[900px]">
 					At Deltospark, we are continually working on exciting new projects to push the boundaries of digital innovation and deliver exceptional solutions to our valued clients. While we are eager to share our upcoming projects, we understand the importance of confidentiality and protecting sensitive information. Therefore, we will provide a brief overview of our projects while keeping specific details private.
 
@@ -3059,9 +3059,9 @@ AIxFigma is a plugin for Figma that uses advanced technology to help you easily 
 			<ScrollAnimation variants={scaleUpVariants}>
 				<div className=" mt-24  mx-5 min-h-[700px]  border border-[#262626] rounded-2xl p-5  my-cardBG flex flex-col items-center">
 					<div className="mt-16 xl:w-[900px] flex flex-col gap-5 lg:px-10">
-						<h1 className="text-2xl font-semibold text-center">
+						<h2 className="text-2xl font-semibold text-center">
 							Ready to Transform Your Digital Presence?
-						</h1>
+						</h2>
 						<p className="text-sm text-center text-[#808080]">
 						Take the first step towards digital success with Deltospark by your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or cutting-edge blockchain, dApp, and AI/ML solutions, we've got you covered. Let’s embark on this transformative journey together.
 

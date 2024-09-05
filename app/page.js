@@ -224,17 +224,17 @@ export default function Home() {
 							</div>
 						</div>
 					    <div className="w-1/2 text-5xl justify-center items-center lg:flex bg-[#090909a2] hidden">
-      <img src="/biglogo.png" alt="Logo" />
+      <img src="/biglogo.png" alt="Deltospark" />
     </div>
 
 					</div>
 				</ScrollAnimation>
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="flex flex-col items-center mt-24  w-full sm:max-w-[1280px] mx-auto gap-5 p-4 sm:px-10">
-					<h1 className="text-center text-3xl font-semibold xl:w-[500px]">
+					<h2 className="text-center text-3xl font-semibold xl:w-[500px]">
   Top Reasons to Choose Deltospark for Expert Web, App, and AI Development{" "}
 							{/* <span className="text-[#808080]">Your Digital Journey</span> */}
-						</h1>
+						</h2>
 						<p className="text-sm text-[#808080] text-center xl:w-[900px]">
 							Partner with Deltospark and Transform Your Business. Unlock a
 							world of advantages with Deltospark. Boost your brand visibility,
@@ -249,7 +249,7 @@ export default function Home() {
 								<div className="first-item lg:w-1/3">
 									<ScrollAnimation variants={scaleUpVariants}>
 										<div className="flex flex-col items-center gap-5">
-											<Image src={iconOne} alt="Expertise that drives results" width={70} height={70} />
+											<Image src={iconOne} alt="Website developers near me" width={70} height={70} />
 											<div className="flex items-center flex-col gap-3">
 												<h3 className="xl:text-[18px] font-semibold text-center">
 													Expertise That Drives Results
@@ -267,7 +267,7 @@ export default function Home() {
 								<div className="second-item  lg:w-1/3">
 									<ScrollAnimation variants={scaleUpVariants}>
 										<div className="flex flex-col items-center gap-5">
-											<Image src={iconTwo} alt="Tailored Business Solutions" width={70} height={70} />
+											<Image src={iconTwo} alt="Affordable Software Development Services" width={70} height={70} />
 											<div className="flex items-center flex-col gap-3">
 												<h3 className="xl:text-[18px] font-semibold text-center">
 													Tailored Business Solutions
@@ -286,8 +286,7 @@ export default function Home() {
 								<div className="Third-item  lg:w-1/3">
 									<ScrollAnimation variants={scaleUpVariants}>
 										<div className="flex flex-col items-center gap-5">
-											<Image src={iconThree} alt="Cutting-Edge Website Development
-" width={70} height={70} />
+											<Image src={iconThree} alt="website design company near me" width={70} height={70} />
 											<div className="flex flex-col items-center gap-3">
 												<h3 className="xl:text-[18px] font-semibold text-center">
 													Cutting-Edge Website Development
@@ -308,8 +307,7 @@ export default function Home() {
 								<div className="fourth-item lg:w-1/3">
 									<ScrollAnimation variants={scaleUpVariants}>
 										<div className="flex flex-col items-center gap-5">
-											<Image src={iconFourth} alt="Innovative App Development
-" width={70} height={70} />
+											<Image src={iconFourth} alt="top web development companies" width={70} height={70} />
 											<div className="flex flex-col items-center gap-3">
 												<h3 className="text-[18px] font-semibold text-center">
 													Innovative App Development
@@ -327,7 +325,7 @@ export default function Home() {
 								<div className=" fifth-item lg:w-1/3">
 									<ScrollAnimation variants={scaleUpVariants}>
 										<div className="flex flex-col items-center gap-5">
-											<Image src={iconFifth} alt="Robust Backend Solutions
+											<Image src={iconFifth} alt="build shopify website
 " width={70} height={70} />
 											<div className="flex flex-col items-center gap-3">
 												<h3 className="text-[18px] font-semibold text-center">
@@ -346,7 +344,7 @@ export default function Home() {
 								<div className=" sixth-item lg:w-1/3">
 									<ScrollAnimation variants={scaleUpVariants}>
 										<div className="flex flex-col items-center gap-5">
-											<Image src={iconSixth} alt="AI & Machine Learning
+											<Image src={iconSixth} alt="AI agency
 " width={70} height={70} />
 											<div className="flex flex-col items-center gap-3">
 												<h3 className="xl:text-[18px]  font-semibold text-center">
@@ -366,9 +364,9 @@ export default function Home() {
 				</ScrollAnimation>
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="flex flex-col items-center mt-24 w-full sm:max-w-[1280px] p-4 sm:px-10 mx-auto gap-10">
-						<h1 className="text-center sm:text-3xl text-xl font-semibold xl:w-[500px]">
+						<h2 className="text-center sm:text-3xl text-xl font-semibold xl:w-[500px]">
 							<span className="text-[#808080]">Our</span> Services
-						</h1>
+						</h2>
 						<p className="text-sm text-[#808080] text-center xl:w-[900px]">
 							Our comprehensive range of services includes website development,
 							mobile app development, web design, backend solutions, AI, machine
@@ -380,7 +378,7 @@ export default function Home() {
 							<div className="lg:w-1/2">
 								<ScrollAnimation variants={scaleUpVariants}>
 									<div className="border border-[#292929] p-4 min-h-[520px] rounded-2xl my-cardBG flex flex-col justify-center items-center lg:gap-10 gap-4">
-										<Image src={cardIconOne} width={100} height={100} alt="Website Development Services" />
+										<Image src={cardIconOne} width={100} height={100} alt="On-Demand App Development" />
 										<div className="flex flex-col justify-center items-center gap-4 md:w-[80%]">
 											<h3 className="text-xl text-center font-semibold">
 												Website Development
@@ -432,7 +430,7 @@ export default function Home() {
 											src={cardIconThree}
 											width={100}
 											height={100}
-											alt="Web Design Services"
+											alt="Custom CRM Development"
 										/>
 										<div className="flex flex-col justify-center items-center gap-4 md:w-[80%]">
 											<h3 className="text-xl font-semibold">Web Design</h3>
@@ -496,7 +494,7 @@ export default function Home() {
       src={servicesprotfolio1} 
       layout="fill"
       className="object-cover"
-	  alt="Software Development Services, including custom software solutions and development expertise"
+	  alt="Full Stack Development Services"
 	  />									
     			<div className=" absolute bottom-[-1px] mb-0.5 max-h-[50px] flex items-center gap-2 py-1 md:px-4 px-2 text-sm border border-[#1F1F1F] bg-[#121212] rounded-full">
 											<Link href={"/projects"} className="text-xs">
@@ -546,7 +544,7 @@ export default function Home() {
       src={servicesprotfolio3} 
       layout="fill"
       className="object-cover"
-	  alt="Mobile App Development Services including iOS, Android, and Cross-Platform Solutions"
+	  alt="Software Development for Startups"
 	  	  />										
     			<div className="absolute bottom-[-1px] mb-0.5 max-h-[50px] flex items-center gap-2 py-1 md:px-4 px-2 text-sm border border-[#1F1F1F] bg-[#121212] rounded-full">
 											<Link href={"/projects"} className="text-xs">
@@ -598,7 +596,7 @@ export default function Home() {
       src={servicesprotfolio4} 
       layout="fill"
       className="object-cover"
-	  alt="Blockchain Development, including smart contracts, dApps, and cryptocurrency solutions"
+	  alt="E-commerce Website Development for Retail"
 	  />		
 									<div className=" absolute bottom-[-1px] mb-0.5 max-h-[50px] flex items-center gap-2 py-1 md:px-4 px-2 text-sm border border-[#1F1F1F] bg-[#121212] rounded-full">
 											<Link href={"/projects"} className="text-xs">
@@ -646,7 +644,7 @@ export default function Home() {
       src={servicesprotfolio5} 
       layout="fill"
       className="object-cover"
-	  alt="Website Development services, highlighting custom web design and development solutions"
+	  alt="custom wordpress development"
 	  />		
     			<div className=" absolute bottom-[-1px] mb-0.5 max-h-[50px] flex items-center gap-2 py-1 md:px-4 px-2 text-sm border border-[#1F1F1F] bg-[#121212] rounded-full">
 											<Link href={"/projects"} className="text-xs">
@@ -719,9 +717,9 @@ export default function Home() {
 					<div className="flex flex-col items-center mt-24  w-full sm:max-w-[1280px] mx-auto gap-10 relative">
 						<div className="absolute w-72 left-0 bottom-0 h-[350px] bg-gradient-to-r from-[#0f0f0f] to-transparent hidden lg:block z-20"></div>
 
-						<h1 className="text-center text-3xl font-semibold xl:w-[500px]">
+						<h2 className="text-center text-3xl font-semibold xl:w-[500px]">
 							<span className="text-[#808080]">Our</span> Testimonials
-						</h1>
+						</h2>
 						<p className="text-sm text-[#808080] text-center xl:w-[900px] w-[90vw]">
 						Don't just take our word for it; hear what our satisfied clients have to say about their experience with Deltospark. We take pride in building lasting relationships and delivering exceptional results.
 
@@ -774,9 +772,9 @@ export default function Home() {
 				</ScrollAnimation>
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="flex flex-col items-center mt-24  w-full sm:max-w-[1280px] mx-auto gap-5 relative">
-						<h1 className="text-center text-3xl font-semibold xl:w-[500px]">
+						<h2 className="text-center text-3xl font-semibold xl:w-[500px]">
 							<span className="text-[#808080]">Frequently</span> Asked Questions
-						</h1>
+						</h2>
 						<p className="text-sm text-[#808080] text-center xl:w-[900px] w-[90vw]">
 							Got questions? We've got answers. Check out our frequently asked
 							questions section to find valuable insights into our processes,
@@ -1286,9 +1284,9 @@ We develop mobile apps using frameworks and tools such as Flutter and React Nati
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className=" mt-24  mx-5 minh-[700px]  border border-[#262626] rounded-2xl p-5  my-cardBG flex flex-col items-center">
 						<div className="mt-16 xl:w-[900px] flex flex-col gap-5 lg:px-10">
-							<h1 className="text-2xl font-semibold text-center">
+							<h2 className="text-2xl font-semibold text-center">
 								Ready to Transform Your Digital Presence?
-							</h1>
+							</h2>
 							<p className="text-sm text-center text-[#808080]">
 								Take the first step towards digital success with Deltospark by
 								your side. Our team of experts is eager to craft tailored solutions that drive growth for your business. Whether you need a stunning website, a powerful mobile app, or cutting-edge blockchain, dApp, and AI/ML solutions, we've got you covered. Let’s embark on this transformative journey together.
