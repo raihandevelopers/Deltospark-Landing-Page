@@ -478,7 +478,7 @@ export default function Home() {
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="flex flex-col items-center mt-24  w-full sm:max-w-[1280px] mx-auto gap-10 p-4 sm:px-10">
 					<h2 className="text-center text-3xl font-semibold xl:w-[500px]">
-	<span className="text-[#808080]">Our</span> Services in Web Development, AI & Machine Learning, App Development, and Blockchain
+	<span className="text-[#808080]">Our</span> Services in Web Development, AI, App Development, and Blockchain
 </h2>
 
 						<p className="text-sm text-[#808080] text-center xl:w-[900px]">

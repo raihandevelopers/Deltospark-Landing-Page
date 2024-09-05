@@ -168,7 +168,7 @@ const About = () => {
 				<ScrollAnimation variants={scaleUpVariants}>
 				<div className="flex flex-col items-center mt-24  sm:max-w-[1280px] mx-auto gap-10 p-2 sm:p-10">
 					<h1 className="text-center text-3xl font-semibold lg:w-[500px]">
-					<span className="text-[#808080]">Our</span>Development Experts
+					<span className="text-[#808080]">Our</span> Development Experts
 					</h1>
 					<p className="text-mm font-bold text-[#808080] text-center lg:w-[900px]">
 					Meet The Lean, Mean, Design and Code Machine At Deltospark
