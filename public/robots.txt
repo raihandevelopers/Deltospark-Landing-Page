@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://deltospark.com
+
+# Sitemaps
+Sitemap: https://deltospark.com/sitemap.xml
