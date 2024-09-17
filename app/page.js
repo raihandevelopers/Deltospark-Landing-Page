@@ -163,6 +163,7 @@ export default function Home() {
 
 	return (
 		<>
+		    
 			<ToastContainer
 				position="top-right"
 				autoClose={5000}
@@ -180,13 +181,6 @@ export default function Home() {
 			<main className=" mx-auto ">
 			<Analytics />
 			<SpeedInsights />
-
-			<meta property="og:title" content="Deltospark | Your 360° Tech Hub" />
-<meta property="og:description" content="Deltospark offers comprehensive tech solutions including web development, AI, blockchain, and more. Partner with us to drive your success." />
-<meta property="og:image" content="/biglogo.png" />
-<meta property="og:url" content="https://www.deltospark.com" />
-<meta property="og:type" content="website" />
-
 
 				<ScrollAnimation variants={scaleUpVariants}>
 					<div className="Hero-section flex md:h-[550px] min-h-[400px]">
