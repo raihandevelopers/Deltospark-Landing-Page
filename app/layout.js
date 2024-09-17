@@ -9,8 +9,8 @@ const sora = Sora({ subsets: ["latin"] });
 import Script from "next/script";
 
 export const metadata = {
-  title: "Deltospark - Leading Software Development Agency | Web & App Solutions",
-  description: "We are a software development agency that helps startups and businesses build their tech, including websites, apps, and AI.",
+  title: "Deltospark - Leading Software Development Agency",
+  description: "Deltospark helps startups and businesses build tech solutions, including websites, apps, and AI.",
   keywords: "deltospark, deltosparks, startup, early-stage startup, software development agency, website development, app development, seed funding, venture capital, angel investors, bootstrapping, incubator, accelerator, lean startup, MVP (Minimum Viable Product), startup branding, startup marketing, growth hacking, product development, product strategy, user acquisition, customer development, fundraising, pitch deck, business plan, legal services, accounting services, HR services, cloud computing, SaaS (Software as a Service), PaaS (Platform as a Service), API (Application Programming Interface), CRM (Customer Relationship Management), project management tools, collaboration tools, data analytics, AI (Artificial Intelligence), machine learning, startup landing pages, startup websites, mobile apps for startups, e-commerce platforms for startups, online marketplaces, subscription-based models, SaaS products, fintech startups, edtech startups, healthtech startups, biotech startups, cleantech startups, agritech startups, logistics startups, foodtech startups",
   openGraph: {
     title: "Deltospark - Expert Web, App Development & Tech Solutions",
@@ -82,7 +82,24 @@ export default function RootLayout({ children }) {
           "name": "Deltospark",
           "url": "https://deltospark.com",
           "logo": "https://drive.google.com/uc?export=view&id=1Jas9CCsMJYiNWTCxKr8fH1dwtAEAfEwg",
-          "sameAs": ["https://twitter.com/Deltospark"]
+          "sameAs": [
+            "https://twitter.com/Deltospark",
+            "https://www.linkedin.com/company/deltospark"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+919754778910",
+            "contactType": "Customer Service",
+            "areaServed": "Worldwide",
+            "availableLanguage": "English, Hindi"
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Indore",
+            "addressRegion": "Madhya Pradesh",
+            "postalCode": "452001",
+            "addressCountry": "India"
+          }
         })}
         </script>
       </Head>
